@@ -1,4 +1,4 @@
-New text file
+Create new text file
 
 1. cd /c/Users/HP/Desktop/git/getstarted
 2. touch text.txt
@@ -6,3 +6,5 @@ New text file
 4. git add text.txt
 5. git commit -m "Добавить text.txt"
 6. git push
+
+~~
