@@ -1,0 +1,29 @@
+Create new text file
+
+1. cd /c/Users/HP/Desktop/git/getstarted
+2. touch text.txt
+3. notepad text.txt
+4. git add text.txt
+5. git commit -m "Добавить text.txt"
+6. git push
+
+
+Problem 1: Add forgotten file and change last commit:
+
+git add забытый_файл.txt
+git commit --amend -m "Добавить 2 файла"
+
+Problem 2: Случайно добавили ненужный файл
+
+git reset HEAD файл.txt
+
+Problem 3: Отменить изменения в файле:
+
+git checkout -- файл.txt # К состоянию последнего коммита
+
+ 
+Добавить файлы в .gitignore, которые уже отслуживаются:
+
+git rm --cached text.txt
+git commit -m "Перестать отслеживать text.txt"
+git push
