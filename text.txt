@@ -1,4 +1,4 @@
-Create new text file
+ttt Create new text file
 
 1. cd /c/Users/HP/Desktop/git/getstarted
 2. touch text.txt
